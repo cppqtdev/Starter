@@ -7,5 +7,6 @@
         <file>assets/IconProvider.js</file>
         <file>assets/adeshqr.png</file>
         <file>assets/whatsapp.svg</file>
+        <file>appicon.ico</file>
     </qresource>
 </RCC>
