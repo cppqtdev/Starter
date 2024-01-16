@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Theme.qml</file>
+        <file>LightTheme.qml</file>
+        <file>DarkTheme.qml</file>
+        <file>assets/IconProvider.js</file>
+        <file>assets/adeshqr.png</file>
+        <file>assets/whatsapp.svg</file>
+    </qresource>
+</RCC>
