@@ -1,5 +1,9 @@
 // Copyright (C) 2024 Adesh Singh
 
+
+/*
+  Download free icons for application use : https://iconduck.com/
+*/
 import QtQuick 2.15
 import QtQuick.Window 2.15
 import QtQuick.Controls
