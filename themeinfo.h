@@ -1,3 +1,5 @@
+// Copyright (C) 2024 Adesh Singh
+
 #ifndef THEMEINFO_H
 #define THEMEINFO_H
 

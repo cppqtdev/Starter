@@ -1,3 +1,5 @@
+// Copyright (C) 2024 Adesh Singh
+
 #ifndef APPLICATION_H
 #define APPLICATION_H
 

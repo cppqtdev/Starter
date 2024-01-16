@@ -1,3 +1,5 @@
+// Copyright (C) 2024 Adesh Singh
+
 #include "svgelementprovider.h"
 #include <algorithm>
 

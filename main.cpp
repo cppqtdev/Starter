@@ -1,3 +1,5 @@
+// Copyright (C) 2024 Adesh Singh
+
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQuickStyle>

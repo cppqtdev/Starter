@@ -1,3 +1,5 @@
+// Copyright (C) 2024 Adesh Singh
+
 #include "themeinfo.h"
 
 #define DARK_THEME "dark_theme"

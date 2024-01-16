@@ -1,4 +1,4 @@
-
+// Copyright (C) 2024 Adesh Singh
 
 #ifndef SVGELEMENTPROVIDER_HPP
 #define SVGELEMENTPROVIDER_HPP

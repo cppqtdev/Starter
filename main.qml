@@ -1,3 +1,5 @@
+// Copyright (C) 2024 Adesh Singh
+
 import QtQuick 2.15
 import QtQuick.Window 2.15
 import QtQuick.Controls
@@ -9,7 +11,19 @@ Window {
     visible: true
     title: qsTr("Hello World")
     color: gTheme.isDark ? DarkTheme.background : LightTheme.background
+    property alias fontSystem: fontSystem
 
+    FontSystem{
+        id:fontSystem
+    }
+
+    Label{
+        y:30
+        text: qsTr("This is Font System ..")
+        anchors.horizontalCenter: parent.horizontalCenter
+        font.family: fontSystem.getAwesomeRegular.name
+        font.pixelSize: fontSystem.h2
+    }
 
     Image{
         source: "image:///"+ Icons.basic.whatsapp

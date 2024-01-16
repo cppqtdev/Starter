@@ -1,3 +1,4 @@
+# Copyright (C) 2024 Adesh Singh
 QT += quick core quickcontrols2 svg qml
 
 # You can make your code fail to compile if it uses deprecated APIs.

@@ -1,3 +1,5 @@
+// Copyright (C) 2024 Adesh Singh
+
 #include "application.h"
 #include <QQmlContext>
 #include "src/svgelementprovider.h"
