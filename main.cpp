@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
     QQmlApplicationEngine *engine = new QQmlApplicationEngine();
+    engine->addImportPath("qrc:/");
     Application *_app = Application::getInstance(engine);
     Q_UNUSED(_app)
 

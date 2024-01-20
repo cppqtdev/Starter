@@ -24,6 +24,7 @@ void Application::registerQML()
 {
     qmlRegisterSingletonType(QUrl(QStringLiteral("qrc:/LightTheme.qml")),"Theme",1,0,"LightTheme");
     qmlRegisterSingletonType(QUrl(QStringLiteral("qrc:/DarkTheme.qml")),"Theme",1,0,"DarkTheme");
+    qmlRegisterSingletonType(QUrl(QStringLiteral("qrc:/Theme.qml")),"Theme",1,0,"Style");
 
 
     m_engine->rootContext()->setContextProperty("gTheme",_themeInfo);

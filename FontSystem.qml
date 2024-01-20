@@ -1,6 +1,6 @@
 // Copyright (C) 2024 Adesh Singh
 
-import QtQuick 2.9
+import QtQuick
 
 Item {
 

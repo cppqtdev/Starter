@@ -1,8 +1,9 @@
 // Copyright (C) 2024 Adesh Singh
 
 pragma Singleton
-import QtQuick 2.15
+import QtQuick
 
 QtObject {
-     property color background: "#ffffff"
+     readonly property color background: "#ffffff"
+     readonly property color text:"#000000"
 }

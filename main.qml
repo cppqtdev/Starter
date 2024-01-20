@@ -4,40 +4,23 @@
 /*
   Download free icons for application use : https://iconduck.com/
 */
-import QtQuick 2.15
-import QtQuick.Window 2.15
+import QtQuick
+import QtQuick.Window
 import QtQuick.Controls
 import Theme
 import "assets/IconProvider.js" as Icons
+
+import QStarter.Component 0.1
+import QStarter.Screens 0.1
 Window {
     width: 640
     height: 480
     visible: true
     title: qsTr("Hello World")
-    color: gTheme.isDark ? DarkTheme.background : LightTheme.background
-    property alias fontSystem: fontSystem
+    color: Style.background
 
-    FontSystem{
-        id:fontSystem
-    }
 
-    Label{
-        y:30
-        text: qsTr("This is Font System ..")
-        anchors.horizontalCenter: parent.horizontalCenter
-        font.family: fontSystem.getAwesomeRegular.name
-        font.pixelSize: fontSystem.h2
-    }
-
-    Image{
-        source: "image:///"+ Icons.basic.whatsapp
-    }
-
-    Button{
-        text: qsTr("Switch")
-        anchors.centerIn: parent
-        onClicked: {
-            gTheme.isDark = !gTheme.isDark
-        }
+    HomePage{
+        anchors.centerIn:parent
     }
 }

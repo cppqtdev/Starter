@@ -1,0 +1,3 @@
+module QStarter.Component
+
+StarterLabel 0.1 StarterLabel.qml

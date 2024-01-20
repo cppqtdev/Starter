@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>QStarter/Component/StarterLabel.qml</file>
+        <file>QStarter/Screens/HomePage.qml</file>
+        <file>QStarter/Component/qmldir</file>
+        <file>QStarter/Screens/qmldir</file>
+        <file>QStarter/qmldir</file>
+        <file>QStarter/Icons/IconProvider.js</file>
+        <file>QStarter/Icons/qmldir</file>
+    </qresource>
+</RCC>
